@@ -1,0 +1,8 @@
+---
+version: "3"
+
+services:
+  tetris-game:
+    image: vhandika/canvas-tetris-jenkins:1.0
+    ports:
+      - "7071:80"
